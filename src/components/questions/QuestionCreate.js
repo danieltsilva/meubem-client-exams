@@ -5,9 +5,7 @@ import QuestionForm from './QuestionForm';
 
 class QuestionCreate extends React.Component {
     onSubmit = formValues => {
-        //TODO action
-        //this.props.createQuestion(formValues);
-        console.log(formValues);
+        this.props.createQuestion(formValues);
     };
 
     render() {
